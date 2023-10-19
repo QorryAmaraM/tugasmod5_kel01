@@ -1,16 +1,21 @@
 /* styles.css */
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('https://fonts.cdnfonts.com/css/spacetype');
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #c3adad;
+  justify-content: center;
+  background-image: url(pokeball.jpg);
 }
 
 nav {
-  background-color: #007acc;
-  color: white;
-  padding: 10px;
+  background-color: #2a12a7;
+  color: rgb(0, 29, 211);
+  padding: 30px;
+  justify-content: center;
 }
 
 nav ul {
@@ -18,15 +23,22 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
+  justify-content: center;
 }
 
 nav li {
   margin-right: 20px;
+  justify-content: center;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 50px;
   margin: 20px;
+  font-family: 'Pokemon Solid', sans-serif;
+  color: #f3f300;
+  justify-content: center;
+  text-align: center;
+  background-color: #0404e3b6;
 }
 
 ul {
@@ -35,9 +47,15 @@ ul {
 }
 
 li {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  margin-bottom: 10px;
+  text-align: center;
   padding: 10px;
-  margin: 10px;
+  background-color: #efd004;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  font-style: normal;
+  color: #0b0a0a;
+  font-family: 'SpaceType', sans-serif;                                            
 }
